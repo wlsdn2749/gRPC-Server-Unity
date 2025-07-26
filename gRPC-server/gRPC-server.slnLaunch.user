@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "새 프로필",
+    "Projects": [
+      {
+        "Path": "gRPC-server\\gRPC-server.vcxproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "gRPC-client\\gRPC-client.vcxproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

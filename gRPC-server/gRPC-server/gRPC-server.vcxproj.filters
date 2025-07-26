@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Protocol">
+      <UniqueIdentifier>{7f7af908-4bfc-461d-99f2-509aa3f4250b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{75811c3f-809e-471e-b1c2-42d58b7c6870}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="grpc">
+      <UniqueIdentifier>{68977778-35d4-4d0a-8083-6d8f2cb4baa4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="..\Generated\cpp\route_guide.grpc.pb.cc">
+      <Filter>grpc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Generated\cpp\route_guide.pb.cc">
+      <Filter>grpc</Filter>
+    </ClCompile>
+    <ClCompile Include="RouteGuideService.cpp">
+      <Filter>grpc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Generated\cpp\helloworld.grpc.pb.cc">
+      <Filter>grpc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Generated\cpp\helloworld.pb.cc">
+      <Filter>grpc</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Protocol\route_guide.proto">
+      <Filter>Protocol</Filter>
+    </None>
+    <None Include="..\Protocol\helloworld.proto">
+      <Filter>Protocol</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="RouteGuideService.h">
+      <Filter>grpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Generated\cpp\route_guide.grpc.pb.h">
+      <Filter>grpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Generated\cpp\route_guide.pb.h">
+      <Filter>grpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Generated\cpp\helloworld.grpc.pb.h">
+      <Filter>grpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Generated\cpp\helloworld.pb.h">
+      <Filter>grpc</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

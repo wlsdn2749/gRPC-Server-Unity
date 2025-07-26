@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="gRPC-client.cpp" />
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="..\Generated\cpp\helloworld.grpc.pb.cc">
+      <Filter>grpc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Generated\cpp\helloworld.pb.cc">
+      <Filter>grpc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Generated\cpp\route_guide.grpc.pb.cc">
+      <Filter>grpc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Generated\cpp\route_guide.pb.cc">
+      <Filter>grpc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gRPC-server\RouteGuideService.cpp">
+      <Filter>grpc</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="..\gRPC-server\RouteGuideService.h">
+      <Filter>grpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Generated\cpp\helloworld.grpc.pb.h">
+      <Filter>grpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Generated\cpp\helloworld.pb.h">
+      <Filter>grpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Generated\cpp\route_guide.grpc.pb.h">
+      <Filter>grpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Generated\cpp\route_guide.pb.h">
+      <Filter>grpc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="grpc">
+      <UniqueIdentifier>{c2349b6f-e8e7-4543-a0b1-abc7713fc24b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

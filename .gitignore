@@ -3,10 +3,10 @@ third_party
 x64
 .vs
 
-/[Ll]ibrary/
-/[Tt]emp/
-/[Oo]bj/
-/[Bb]uild/
-/[Bb]uilds/
-/[Ll]ogs/
-/[Uu]ser[Ss]ettings/
+Library
+Logs
+Packages
+Temp
+UserSettings
+obj
+.idea
